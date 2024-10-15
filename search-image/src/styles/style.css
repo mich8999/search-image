@@ -12,8 +12,21 @@ body {
 
 /* 隱藏垂直滾輪條 */
 ::-webkit-scrollbar {
-  width: 0px; /* 設定滾輪條寬度為 0，達到隱藏效果 */
-  background: transparent; /* 背景透明 */
+  width: 10px; /* 設定滾輪條寬度為 0，達到隱藏效果 */
+  /*background: transparent;  背景透明 */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 247, 239); /* 設定軌道的背景顏色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(141, 175, 168);
+  border-radius: 10px; /* 軌道的圓角邊框 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8f6234;
 }
 
 a {
