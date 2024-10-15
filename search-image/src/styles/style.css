@@ -22,7 +22,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: rgb(141, 175, 168);
-  border-radius: 10px; /* 軌道的圓角邊框 */
+  border-radius: 5px; /* 軌道的圓角邊框 */
 }
 
 ::-webkit-scrollbar-thumb:hover {
